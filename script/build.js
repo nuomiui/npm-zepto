@@ -14,7 +14,7 @@ if (os.platform() === 'win32') {
 	child_process.exec(abs('script/build.bat'), function (e,  stdout, stderr) {
 		console.log(stdout);
 		var cmd = [
-			'copy ',
+			'cp ',
 			abs('zepto/dist/zepto.js'),
 			abs('index.js')
 		]
