@@ -2,7 +2,8 @@
 
 cd zepto
 npm install
-npm run-script dist
+MODULES="zepto event data fx fx_methods selector" npm run-script dist
+#npm run-script dist
 cd ..
 
 if [ -f index.js ]; then
