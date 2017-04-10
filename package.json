@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Nytramr/npm-zepto/issues"
   },
-  "homepage": "https://github.com/Nytramr/npm-zepto"
+  "homepage": "https://github.com/Nytramr/npm-zepto",
+  "dependencies": {
+    "npm-zepto": "git+https://github.com/madrobby/zepto.git#master"
+  }
 }

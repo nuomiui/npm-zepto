@@ -6,7 +6,9 @@ var dir = __dirname;
 function abs(name) {
 	return path.join(dir, '../', name);
 }
+
 if (os.platform() === 'win32') {
+	child_process.execSync('cp -R ' + abs('node_modules/zepto') + ' zepto');
 	if (fs.existsSync(abs('index.js'))) {
 		fs.unlink(abs('index.js'));
 	}
