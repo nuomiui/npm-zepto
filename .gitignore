@@ -9,4 +9,3 @@ node_modules
 temp/
 npm-debug.log
 index.js
-zepto
