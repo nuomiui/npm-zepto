@@ -4,8 +4,8 @@
   "description": "An automatic CommonJS Zepto wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node ./script/build.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    // "install": "script/build"
   },
   "repository": {
     "type": "git",
