@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/Nytramr/npm-zepto",
   "dependencies": {
-    "zepto": "^1.2.0"
+    "zepto": "git+https://github.com/madrobby/zepto.git#master"
   }
 }
