@@ -13,7 +13,9 @@ if (os.platform() === 'win32') {
 		fs.unlink(abs('index.js'));
 	}
 	child_process.execSync('chcp 65001');
+	child_process.execSync('cd zepto && npm install');
 	child_process.exec(abs('script/build.bat'), function (e,  stdout, stderr) {
+		child_process.execSync('coffee make dist');
 		console.log(stdout);
 		var cmd = [
 			'cp ',
