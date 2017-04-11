@@ -1,31 +1,9 @@
 {
   "name": "npm-zepto",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "An automatic CommonJS Zepto wrapper",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    // "install": "script/build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Nytramr/npm-zepto.git"
-  },
-  "keywords": [
-    "zepto",
-    "jquery",
-    "npm",
-    "AMD",
-    "CommonJS",
-    "RequireJS"
-  ],
-  "author": "Martin Rubinsztein",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Nytramr/npm-zepto/issues"
-  },
-  "homepage": "https://github.com/Nytramr/npm-zepto",
-  "dependencies": {
-    "zepto": "git+https://github.com/madrobby/zepto.git#master"
-  }
+  "homepage": "https://github.com/nuomiui/npm-zepto#readme"
 }
+
