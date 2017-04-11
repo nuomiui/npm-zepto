@@ -7,7 +7,7 @@ function abs(name) {
 	return path.join(dir, '../', name);
 }
 
-child_process.execSync('cp -R ' + abs('node_modules/zepto') + ' zepto');
+child_process.execSync('cp -R ' + abs('node_modules/zepto') + ' ' + abs('zepto'));
 if (os.platform() === 'win32') {
 	if (fs.existsSync(abs('index.js'))) {
 		fs.unlink(abs('index.js'));
